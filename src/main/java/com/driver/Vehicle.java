@@ -45,4 +45,8 @@ public class Vehicle {
     public void setCurrentDirection(int currentDirection) {
         this.currentDirection = currentDirection;
     }
+
+    public String getName() {
+        return name;
+    }
 }
